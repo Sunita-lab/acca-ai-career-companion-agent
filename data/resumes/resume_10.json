@@ -1,0 +1,34 @@
+{
+  "name": "Ikbal Kothari",
+  "email": "ranveeryadav@example.com",
+  "phone": "+916247317810",
+  "skills": [
+    "Streamlit",
+    "Power BI",
+    "PyTorch",
+    "Scikit-learn"
+  ],
+  "education": [
+    {
+      "degree": "B.Tech",
+      "field": "Computer Science",
+      "institute": "Zachariah, Aurora and Chander Institute of Technology",
+      "year": 2027
+    }
+  ],
+  "experience": [],
+  "projects": [
+    {
+      "title": "Chatbot",
+      "description": "Created FAQ chatbot using Gemini API"
+    },
+    {
+      "title": "Sales Dashboard",
+      "description": "Built interactive dashboard for monthly sales"
+    },
+    {
+      "title": "Expense Tracker",
+      "description": "Web app with SQLite storage"
+    }
+  ]
+}

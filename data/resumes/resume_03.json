@@ -1,0 +1,33 @@
+{
+  "name": "Rehaan Boase",
+  "email": "karibimala@example.org",
+  "phone": "+911647525534",
+  "skills": [
+    "NumPy",
+    "Docker",
+    "Tableau",
+    "Flask",
+    "React",
+    "Python",
+    "Power BI"
+  ],
+  "education": [
+    {
+      "degree": "B.Tech",
+      "field": "Information Technology",
+      "institute": "Bora, Garg and Walla Institute of Technology",
+      "year": 2028
+    }
+  ],
+  "experience": [],
+  "projects": [
+    {
+      "title": "Resume Screener",
+      "description": "Ranked resumes using TF-IDF and cosine similarity"
+    },
+    {
+      "title": "Expense Tracker",
+      "description": "Web app with SQLite storage"
+    }
+  ]
+}

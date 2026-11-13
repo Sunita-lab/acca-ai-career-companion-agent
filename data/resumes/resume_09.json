@@ -1,0 +1,40 @@
+{
+  "name": "Arya Sunder",
+  "email": "kevinsolanki@example.org",
+  "phone": "06311656670",
+  "skills": [
+    "Python",
+    "NumPy",
+    "Flask",
+    "Git",
+    "SQL",
+    "Scikit-learn",
+    "PyTorch",
+    "Pandas"
+  ],
+  "education": [
+    {
+      "degree": "MCA",
+      "field": "Computer Applications",
+      "institute": "Chaudhari, Bhat and Rau Institute of Technology",
+      "year": 2028
+    }
+  ],
+  "experience": [
+    {
+      "role": "Web Developer Intern",
+      "company": "Bobal-Varkey",
+      "duration": "6 months"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Expense Tracker",
+      "description": "Web app with SQLite storage"
+    },
+    {
+      "title": "Chatbot",
+      "description": "Created FAQ chatbot using Gemini API"
+    }
+  ]
+}

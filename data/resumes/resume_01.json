@@ -1,0 +1,37 @@
+{
+  "name": "Udant Dewan",
+  "email": "chahalpahal@example.org",
+  "phone": "+911338908386",
+  "skills": [
+    "NumPy",
+    "Tableau",
+    "Pandas",
+    "JavaScript",
+    "Python",
+    "Java",
+    "SQL",
+    "NLP",
+    "Docker"
+  ],
+  "education": [
+    {
+      "degree": "B.Tech",
+      "field": "Computer Science",
+      "institute": "Sen PLC Institute of Technology",
+      "year": 2025
+    }
+  ],
+  "experience": [
+    {
+      "role": "ML Intern",
+      "company": "Choudhury, Bakshi and Maharaj",
+      "duration": "3 months"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Sales Dashboard",
+      "description": "Built interactive dashboard for monthly sales"
+    }
+  ]
+}

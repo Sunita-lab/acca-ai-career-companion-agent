@@ -1,0 +1,43 @@
+{
+  "name": "Isaac Patil",
+  "email": "wriddhish03@example.net",
+  "phone": "+911718227824",
+  "skills": [
+    "Scikit-learn",
+    "Flask",
+    "NLP",
+    "FastAPI",
+    "Docker",
+    "Tableau",
+    "JavaScript"
+  ],
+  "education": [
+    {
+      "degree": "B.Tech",
+      "field": "Computer Science",
+      "institute": "Sampath, Kakar and Zacharia Institute of Technology",
+      "year": 2027
+    }
+  ],
+  "experience": [
+    {
+      "role": "ML Intern",
+      "company": "Acharya, Naik and Suresh",
+      "duration": "3 months"
+    }
+  ],
+  "projects": [
+    {
+      "title": "House Price Predictor",
+      "description": "Trained regression model on housing data"
+    },
+    {
+      "title": "Expense Tracker",
+      "description": "Web app with SQLite storage"
+    },
+    {
+      "title": "Chatbot",
+      "description": "Created FAQ chatbot using Gemini API"
+    }
+  ]
+}

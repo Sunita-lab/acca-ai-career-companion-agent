@@ -1,0 +1,36 @@
+{
+  "name": "Raksha Varughese",
+  "email": "pdara@example.org",
+  "phone": "+915098393010",
+  "skills": [
+    "C++",
+    "Pandas",
+    "SQL",
+    "NumPy",
+    "Tableau",
+    "Git",
+    "Java",
+    "JavaScript"
+  ],
+  "education": [
+    {
+      "degree": "MCA",
+      "field": "Computer Applications",
+      "institute": "Bir Inc Institute of Technology",
+      "year": 2028
+    }
+  ],
+  "experience": [
+    {
+      "role": "Web Developer Intern",
+      "company": "Iyer, Muni and Rastogi",
+      "duration": "4 months"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Sales Dashboard",
+      "description": "Built interactive dashboard for monthly sales"
+    }
+  ]
+}

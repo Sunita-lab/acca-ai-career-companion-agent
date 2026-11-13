@@ -1,0 +1,32 @@
+{
+  "name": "Chaaya Saran",
+  "email": "sudikshaaggarwal@example.net",
+  "phone": "4828148932",
+  "skills": [
+    "FastAPI",
+    "SQL",
+    "Git",
+    "React"
+  ],
+  "education": [
+    {
+      "degree": "B.Tech",
+      "field": "Information Technology",
+      "institute": "Edwin-Zacharia Institute of Technology",
+      "year": 2027
+    }
+  ],
+  "experience": [
+    {
+      "role": "ML Intern",
+      "company": "Yadav, Loke and Oak",
+      "duration": "6 months"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Chatbot",
+      "description": "Created FAQ chatbot using Gemini API"
+    }
+  ]
+}

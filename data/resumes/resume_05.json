@@ -1,0 +1,34 @@
+{
+  "name": "Janaki Kanda",
+  "email": "yashodharatak@example.org",
+  "phone": "+911226916697",
+  "skills": [
+    "PyTorch",
+    "Flask",
+    "Pandas",
+    "TensorFlow",
+    "Tableau",
+    "Docker"
+  ],
+  "education": [
+    {
+      "degree": "B.Tech",
+      "field": "Computer Science",
+      "institute": "Krishnamurthy, Apte and Contractor Institute of Technology",
+      "year": 2026
+    }
+  ],
+  "experience": [
+    {
+      "role": "Web Developer Intern",
+      "company": "Yohannan, Lall and Sangha",
+      "duration": "4 months"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Chatbot",
+      "description": "Created FAQ chatbot using Gemini API"
+    }
+  ]
+}

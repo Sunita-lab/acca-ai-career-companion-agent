@@ -1,0 +1,41 @@
+{
+  "name": "Anamika Kanda",
+  "email": "daksh30@example.com",
+  "phone": "04139537672",
+  "skills": [
+    "Pandas",
+    "SQL",
+    "FastAPI",
+    "Streamlit",
+    "Tableau"
+  ],
+  "education": [
+    {
+      "degree": "MCA",
+      "field": "Computer Applications",
+      "institute": "Dewan-Koshy Institute of Technology",
+      "year": 2026
+    }
+  ],
+  "experience": [
+    {
+      "role": "Web Developer Intern",
+      "company": "Konda, Gade and Shere",
+      "duration": "2 months"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Chatbot",
+      "description": "Created FAQ chatbot using Gemini API"
+    },
+    {
+      "title": "Expense Tracker",
+      "description": "Web app with SQLite storage"
+    },
+    {
+      "title": "House Price Predictor",
+      "description": "Trained regression model on housing data"
+    }
+  ]
+}
