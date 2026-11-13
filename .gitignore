@@ -3,11 +3,11 @@
 
 # python
 venv/
+.venv/
 __pycache__/
 *.pyc
 
 # local data (real resumes contain personal info)
-data/resumes/
 *.db
 
 .idea/
