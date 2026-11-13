@@ -9,3 +9,6 @@ __pycache__/
 # local data (real resumes contain personal info)
 data/resumes/
 *.db
+
+.idea/
+data/uploads/
