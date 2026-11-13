@@ -3,3 +3,5 @@ pydantic
 python-dotenv
 streamlit
 pdfplumber
+faker
+fpdf2
