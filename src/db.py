@@ -3,7 +3,8 @@ import sqlite3
 from datetime import datetime
 from pathlib import Path
 
-DB_PATH = Path("data") / "acca.db"
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+DB_PATH = PROJECT_ROOT / "data" / "acca.db"
 
 
 def get_conn() -> sqlite3.Connection:

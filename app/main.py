@@ -10,7 +10,8 @@ import streamlit as st
 from src.db import init_db, create_student, save_resume, list_students
 from src.resume_parser.extract_text import extract_text_from_pdf
 
-UPLOAD_DIR = Path("data") / "uploads"
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+UPLOAD_DIR = PROJECT_ROOT / "data" / "uploads"
 
 init_db()
 UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
