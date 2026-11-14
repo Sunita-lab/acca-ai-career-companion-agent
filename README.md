@@ -83,4 +83,47 @@ Resume upload → text extraction → LLM-based structured extraction → valida
 
 ---
 
+---
+
+## Milestone 1 Status
+
+| Task | Status | Where |
+|---|---|---|
+| M1.1 Research | Done | `docs/research-notes.md` |
+| M1.2 System architecture | Done | This README (v1) |
+| M1.3 Student profile, resume upload, metadata storage | Done | `app/main.py`, `src/db.py` |
+| M1.4 LLM resume parsing into a structured profile | Done | `src/llm.py`, `src/resume_parser/`, `src/profile/schema.py` |
+
+### What is implemented
+
+Resume upload (PDF) -> text extraction (pdfplumber) -> LLM extraction (Gemini, JSON output) -> Pydantic validation with retry on invalid output -> candidate profile saved in SQLite.
+
+- `ask_llm()` in `src/llm.py` is the single place for LLM calls, with retry and a fallback model.
+- The parser validates the LLM output against the `CandidateProfile` schema and retries with the validation error as feedback.
+
+### Parser evaluation
+
+`scripts/generate_resumes.py` creates synthetic resumes (single and two-column layouts) with ground-truth JSON. `scripts/test_parser.py` compares parser output with the ground truth.
+
+On 5 synthetic resumes, name, email and phone matched exactly, and F1 for skills, projects, experience and education was 1.00 (the match is on skill names, project titles, organisation names and institute names).
+
+Limitations: the resumes are clean and synthetic, and there is no baseline yet, so this is a sanity check and not a measure of real-world accuracy. Next steps are harder layouts (tables, icons, odd formatting) and a regex baseline to compare against.
+
+### Design notes
+
+- In Milestone 1 the Streamlit app calls the modules in `src/` directly. The FastAPI layer from the architecture is planned for Milestone 2; the logic is already in separate functions so endpoints can wrap it.
+- Only synthetic resumes are used (`data/resumes/`). Real resumes are not uploaded, because the repo is public and free-tier prompts may be used by the provider.
+
+### Not yet built
+
+Job knowledge base and RAG, the agent layer (matching, skill gap, resume, cover letter, interview, router) and application tracking.
+
+### Run locally
+
+```bash
+python -m pip install -r requirements.txt
+cp .env.example .env        # add your Gemini API key
+python -m streamlit run app/main.py
+```
+
 **Author:** Sunita Satpathy| Infosys Springboard Intern
