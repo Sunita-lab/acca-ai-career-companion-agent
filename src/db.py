@@ -33,6 +33,13 @@ def init_db() -> None:
                 raw_text TEXT,
                 uploaded_at TEXT NOT NULL
             );
+        CREATE TABLE IF NOT EXISTS candidate_profiles (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    student_id INTEGER NOT NULL REFERENCES students(id),
+    resume_id INTEGER NOT NULL REFERENCES resumes(id),
+    profile_json TEXT NOT NULL,
+    created_at TEXT NOT NULL
+);        
             """
         )
 
@@ -64,3 +71,21 @@ def list_students():
             "FROM students s LEFT JOIN resumes r ON r.student_id = s.id "
             "ORDER BY s.id DESC"
         ).fetchall()
+def save_profile(student_id: int, resume_id: int, profile_json: str) -> int:
+    with get_conn() as conn:
+        cur = conn.execute(
+            "INSERT INTO candidate_profiles (student_id, resume_id, profile_json, created_at) "
+            "VALUES (?, ?, ?, ?)",
+            (student_id, resume_id, profile_json,
+             datetime.now().isoformat(timespec="seconds")),
+        )
+        return cur.lastrowid
+
+
+def get_profile(student_id: int):
+    with get_conn() as conn:
+        return conn.execute(
+            "SELECT profile_json FROM candidate_profiles "
+            "WHERE student_id = ? ORDER BY id DESC LIMIT 1",
+            (student_id,),
+        ).fetchone()
