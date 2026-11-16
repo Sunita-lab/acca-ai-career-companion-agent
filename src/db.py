@@ -89,3 +89,22 @@ def get_profile(student_id: int):
             "WHERE student_id = ? ORDER BY id DESC LIMIT 1",
             (student_id,),
         ).fetchone()
+def find_student_by_email(email: str):
+    """Return existing student id for this email, or None."""
+    if not email:
+        return None
+    with get_conn() as conn:
+        row = conn.execute(
+            "SELECT id FROM students WHERE lower(email) = lower(?)", (email,)
+        ).fetchone()
+        return row["id"] if row else None
+
+
+def resume_exists(student_id: int, raw_text: str) -> bool:
+    """True if this student already has a resume with the same text."""
+    with get_conn() as conn:
+        row = conn.execute(
+            "SELECT 1 FROM resumes WHERE student_id = ? AND raw_text = ?",
+            (student_id, raw_text),
+        ).fetchone()
+        return row is not None
