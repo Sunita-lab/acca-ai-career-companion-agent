@@ -59,6 +59,11 @@ st.divider()
 st.subheader("Saved profiles")
 rows = list_students()
 if rows:
-    st.table([dict(r) for r in rows])
+    header = "| ID | Name | Email | Resume | Uploaded |\n|---|---|---|---|---|\n"
+    body = "".join(
+        f"| {r['id']} | {r['name']} | {r['email']} | {r['file_name']} | {r['uploaded_at']} |\n"
+        for r in rows
+    )
+    st.markdown(header + body)
 else:
     st.info("No profiles yet.")
