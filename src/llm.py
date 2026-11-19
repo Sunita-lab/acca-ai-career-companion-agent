@@ -18,12 +18,12 @@ _client = genai.Client(
 )
 
 
-def ask_llm(prompt: str, system: str | None = None, json_mode: bool = False) -> str:
-    """Call the primary model; on failure, try the fallback model."""
+def ask_llm(prompt: str, system: str | None = None, json_mode: bool = False,
+            temperature: float = 0.0) -> str:
     config = types.GenerateContentConfig(
         system_instruction=system,
         response_mime_type="application/json" if json_mode else None,
-        temperature=0,
+        temperature=temperature,
     )
     last_error = None
     for model in (PRIMARY_MODEL, FALLBACK_MODEL):
