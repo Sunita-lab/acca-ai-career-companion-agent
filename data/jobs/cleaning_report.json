@@ -1,0 +1,42 @@
+{
+  "raw": 180,
+  "kept": 171,
+  "removed": [
+    {
+      "job_id": "JOB-076",
+      "reason": "irrelevant: not an internship"
+    },
+    {
+      "job_id": "JOB-081",
+      "reason": "irrelevant: not an internship"
+    },
+    {
+      "job_id": "JOB-166",
+      "reason": "irrelevant: not an internship"
+    },
+    {
+      "job_id": "JOB-169",
+      "reason": "irrelevant: not an internship"
+    },
+    {
+      "job_id": "JOB-170",
+      "reason": "irrelevant: not an internship"
+    },
+    {
+      "job_id": "JOB-172",
+      "reason": "irrelevant: not an internship"
+    },
+    {
+      "job_id": "JOB-175",
+      "reason": "irrelevant: not an internship"
+    },
+    {
+      "job_id": "JOB-176",
+      "reason": "irrelevant: not an internship"
+    },
+    {
+      "job_id": "JOB-178",
+      "reason": "irrelevant: not an internship"
+    }
+  ]
+}
