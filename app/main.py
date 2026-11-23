@@ -13,6 +13,9 @@ from src.db import (
 )
 from src.resume_parser.parse_resume import parse_resume
 from src.resume_parser.extract_text import extract_text_from_pdf
+from src.db import get_profile
+from src.profile.schema import CandidateProfile
+from src.matching.agent import match_profile
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 UPLOAD_DIR = PROJECT_ROOT / "data" / "uploads"
@@ -75,3 +78,43 @@ if rows:
     st.markdown(header + body)
 else:
     st.info("No profiles yet.")
+st.divider()
+st.subheader("Find matching internships")
+
+# Create a dictionary of student names with their IDs as keys
+student_names = {r["id"]: r["name"] for r in rows}
+
+if not student_names:
+    st.info("Save a profile first.")
+else:
+    chosen_id = st.selectbox(
+        "Select student",
+        options=list(student_names.keys()),
+        format_func=lambda i: f"{i} - {student_names[i]}",
+    )
+    if st.button("Find matching internships"):
+        saved = get_profile(chosen_id)
+        if saved is None:
+            st.warning("No parsed profile found for this student. Please upload and parse a resume first.")
+        else:
+            profile = CandidateProfile.model_validate_json(saved["profile_json"])
+            with st.spinner("Finding matches(This may take a minute)..."):
+                try:
+                    st.session_state["match_results"] = (chosen_id, match_profile(profile, k=10))
+                except Exception as e:
+                    st.error(f"Matching failed: {e}")
+
+    # results are kept in session state so they persist across reruns
+    state = st.session_state.get("match_results")
+    if state and state[0] == chosen_id:
+        for rank, item in enumerate(state[1], 1):
+            job, m = item["job"], item["match"]
+            title = f"{rank}. {m.score}/100 | {job['title']} | {job['company']} | {job['location']}"
+            with st.expander(title):
+                st.markdown(f"**Matched skills:** {', '.join(m.matched_skills) or '-'}")
+                st.markdown(f"**Missing skills:** {', '.join(m.missing_skills) or '-'}")
+                st.markdown(f"**Why:** {m.reasoning}")
+                st.caption(
+                    f"{job['job_id']} | {job.get('duration', '')} | "
+                    f"{job.get('stipend', '')} | retrieval score {item['job']['retrieval_score']}"
+                )
