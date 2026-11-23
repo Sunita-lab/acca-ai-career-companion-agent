@@ -1,0 +1,107 @@
+{
+  "P1_ml": {
+    "relevant_count": 16,
+    "keyword": [
+      "JOB-022",
+      "JOB-020",
+      "JOB-012",
+      "JOB-006",
+      "JOB-027"
+    ],
+    "embeddings": [
+      "JOB-017",
+      "JOB-022",
+      "JOB-011",
+      "JOB-010",
+      "JOB-027"
+    ],
+    "keyword_p5": 1.0,
+    "keyword_r5": 0.3125,
+    "embeddings_p5": 1.0,
+    "embeddings_r5": 0.3125
+  },
+  "P2_frontend": {
+    "relevant_count": 18,
+    "keyword": [
+      "JOB-046",
+      "JOB-051",
+      "JOB-047",
+      "JOB-094",
+      "JOB-053"
+    ],
+    "embeddings": [
+      "JOB-046",
+      "JOB-053",
+      "JOB-098",
+      "JOB-056",
+      "JOB-050"
+    ],
+    "keyword_p5": 0.6,
+    "keyword_r5": 0.16666666666666666,
+    "embeddings_p5": 0.8,
+    "embeddings_r5": 0.2222222222222222
+  },
+  "P3_data_analytics": {
+    "relevant_count": 23,
+    "keyword": [
+      "JOB-031",
+      "JOB-021",
+      "JOB-004",
+      "JOB-043",
+      "JOB-040"
+    ],
+    "embeddings": [
+      "JOB-021",
+      "JOB-031",
+      "JOB-177",
+      "JOB-171",
+      "JOB-028"
+    ],
+    "keyword_p5": 0.8,
+    "keyword_r5": 0.17391304347826086,
+    "embeddings_p5": 0.6,
+    "embeddings_r5": 0.13043478260869565
+  },
+  "P4_cybersecurity": {
+    "relevant_count": 5,
+    "keyword": [
+      "JOB-158",
+      "JOB-126",
+      "JOB-123",
+      "JOB-131",
+      "JOB-121"
+    ],
+    "embeddings": [
+      "JOB-158",
+      "JOB-121",
+      "JOB-131",
+      "JOB-126",
+      "JOB-123"
+    ],
+    "keyword_p5": 0.8,
+    "keyword_r5": 0.8,
+    "embeddings_p5": 0.8,
+    "embeddings_r5": 0.8
+  },
+  "P5_uiux": {
+    "relevant_count": 10,
+    "keyword": [
+      "JOB-147",
+      "JOB-146",
+      "JOB-137",
+      "JOB-149",
+      "JOB-095"
+    ],
+    "embeddings": [
+      "JOB-147",
+      "JOB-137",
+      "JOB-146",
+      "JOB-136",
+      "JOB-142"
+    ],
+    "keyword_p5": 0.8,
+    "keyword_r5": 0.4,
+    "embeddings_p5": 1.0,
+    "embeddings_r5": 0.5
+  }
+}
