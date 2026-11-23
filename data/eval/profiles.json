@@ -1,0 +1,67 @@
+[
+  {
+    "id": "P1_ml",
+    "expected_domains": ["ML/AI", "Data Science"],
+    "profile": {
+      "name": "Eval Student ML",
+      "education": [{"degree": "B.Tech CSE", "institution": "Test University", "year": "2027"}],
+      "skills": {"technical": ["Python", "PyTorch", "scikit-learn", "NumPy", "Deep Learning", "NLP"]},
+      "projects": [
+        {"title": "Sentiment Classifier", "technologies": ["Python", "PyTorch", "NLP"]},
+        {"title": "Image Classifier", "technologies": ["Python", "PyTorch", "Deep Learning"]}
+      ]
+    }
+  },
+  {
+    "id": "P2_frontend",
+    "expected_domains": ["Web Frontend", "Full Stack"],
+    "profile": {
+      "name": "Eval Student Frontend",
+      "education": [{"degree": "B.Tech IT", "institution": "Test University", "year": "2027"}],
+      "skills": {"technical": ["HTML5", "CSS3", "JavaScript", "React.js", "TypeScript", "Tailwind CSS", "Git"]},
+      "projects": [
+        {"title": "Portfolio Website", "technologies": ["React", "CSS", "JavaScript"]},
+        {"title": "Weather App", "technologies": ["React", "REST API", "JavaScript"]}
+      ]
+    }
+  },
+  {
+    "id": "P3_data_analytics",
+    "expected_domains": ["Data Analytics", "Data Science"],
+    "profile": {
+      "name": "Eval Student Analytics",
+      "education": [{"degree": "BCA", "institution": "Test College", "year": "2026"}],
+      "skills": {"technical": ["SQL", "Excel", "Power BI", "Tableau", "Python", "Pandas", "Statistics"]},
+      "projects": [
+        {"title": "Sales Dashboard", "technologies": ["SQL", "Power BI"]},
+        {"title": "Customer Churn Analysis", "technologies": ["Python", "Pandas", "Statistics"]}
+      ]
+    }
+  },
+  {
+    "id": "P4_cybersecurity",
+    "expected_domains": ["Cybersecurity"],
+    "profile": {
+      "name": "Eval Student Security",
+      "education": [{"degree": "B.Tech CSE (Cyber Security)", "institution": "Test University", "year": "2027"}],
+      "skills": {"technical": ["Nmap", "Wireshark", "Burp Suite", "OWASP Top 10", "Linux CLI", "Network Fundamentals", "Python"]},
+      "projects": [
+        {"title": "Network Vulnerability Scanner", "technologies": ["Python", "Nmap"]},
+        {"title": "Home Lab Pen Testing", "technologies": ["Kali Linux", "Wireshark"]}
+      ]
+    }
+  },
+  {
+    "id": "P5_uiux",
+    "expected_domains": ["UI/UX Design"],
+    "profile": {
+      "name": "Eval Student Design",
+      "education": [{"degree": "B.Des", "institution": "Test Institute", "year": "2027"}],
+      "skills": {"technical": ["Figma", "Wireframing", "Prototyping", "User Research", "Visual Design", "Interaction Design", "Design Systems", "Information Architecture"]},
+      "projects": [
+        {"title": "Food Delivery App Redesign", "technologies": ["Figma", "Prototyping"]},
+        {"title": "Usability Study", "technologies": ["User Research", "Wireframing"]}
+      ]
+    }
+  }
+]
