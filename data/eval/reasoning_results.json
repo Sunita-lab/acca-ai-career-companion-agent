@@ -1,0 +1,19 @@
+{
+  "rows_rated": 10,
+  "overall": {
+    "accuracy_1to5": 4.5,
+    "score_consistency_1to5": 4.1,
+    "clarity_1to5": 3.9,
+    "mean_of_three": 4.17
+  },
+  "top": {
+    "accuracy_1to5": 4.6,
+    "score_consistency_1to5": 4.6,
+    "clarity_1to5": 4.0
+  },
+  "bottom": {
+    "accuracy_1to5": 4.4,
+    "score_consistency_1to5": 3.6,
+    "clarity_1to5": 3.8
+  }
+}
