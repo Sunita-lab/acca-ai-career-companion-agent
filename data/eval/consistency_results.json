@@ -1,0 +1,110 @@
+{
+  "P1_ml": {
+    "per_job": {
+      "JOB-022": {
+        "scores": [
+          75,
+          75,
+          67
+        ],
+        "range": 8,
+        "std": 3.77
+      },
+      "JOB-027": {
+        "scores": [
+          75,
+          75,
+          68
+        ],
+        "range": 7,
+        "std": 3.3
+      },
+      "JOB-017": {
+        "scores": [
+          68,
+          68,
+          68
+        ],
+        "range": 0,
+        "std": 0.0
+      },
+      "JOB-018": {
+        "scores": [
+          68,
+          68,
+          60
+        ],
+        "range": 8,
+        "std": 3.77
+      },
+      "JOB-006": {
+        "scores": [
+          62,
+          63,
+          63
+        ],
+        "range": 1,
+        "std": 0.47
+      }
+    },
+    "avg_range": 4.8,
+    "max_range": 8,
+    "identical_jobs": 1,
+    "same_ranking": false,
+    "same_top1": false
+  },
+  "P4_cybersecurity": {
+    "per_job": {
+      "JOB-126": {
+        "scores": [
+          85,
+          80,
+          85
+        ],
+        "range": 5,
+        "std": 2.36
+      },
+      "JOB-158": {
+        "scores": [
+          83,
+          83,
+          83
+        ],
+        "range": 0,
+        "std": 0.0
+      },
+      "JOB-131": {
+        "scores": [
+          73,
+          73,
+          73
+        ],
+        "range": 0,
+        "std": 0.0
+      },
+      "JOB-121": {
+        "scores": [
+          68,
+          75,
+          75
+        ],
+        "range": 7,
+        "std": 3.3
+      },
+      "JOB-123": {
+        "scores": [
+          68,
+          68,
+          68
+        ],
+        "range": 0,
+        "std": 0.0
+      }
+    },
+    "avg_range": 2.4,
+    "max_range": 7,
+    "identical_jobs": 3,
+    "same_ranking": false,
+    "same_top1": false
+  }
+}
