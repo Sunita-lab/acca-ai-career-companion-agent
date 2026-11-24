@@ -1,6 +1,6 @@
 # src/matching/score.py
 import json
-
+import time
 from pydantic import BaseModel, Field, ValidationError
 
 from src.llm import ask_llm
@@ -58,7 +58,9 @@ def score_job(profile: CandidateProfile, job: dict, max_retries: int = 3) -> Mat
         job_id=job["job_id"],
     )
     last_error = ""
-    for attempt in range(max_retries):
+    attempt = 0
+    rate_waits = 0
+    while attempt < max_retries:
         full_prompt = prompt
         if last_error:
             full_prompt += f"\n\nYour previous answer was invalid: {last_error}\nFix it and return valid JSON only."
@@ -68,7 +70,16 @@ def score_job(profile: CandidateProfile, job: dict, max_retries: int = 3) -> Mat
             if result.job_id != job["job_id"]:
                 raise ValueError(f"job_id must be {job['job_id']}")
             return result
+        except RuntimeError as e:
+            # rate limit: wait and retry, without using up a validation retry
+            if ("429" in str(e) or "503" in str(e)) and rate_waits < 5:
+                rate_waits += 1
+                print(f"   rate limit hit, waiting 60s ({rate_waits}/5)...")
+                time.sleep(60)
+                continue
+            raise
         except (ValidationError, ValueError, json.JSONDecodeError) as e:
+            attempt += 1
             last_error = str(e)[:300]
-            print(f"   invalid output (try {attempt + 1}/{max_retries}): {last_error}")
+            print(f"   invalid output (try {attempt}/{max_retries}): {last_error}")
     raise RuntimeError(f"Could not get valid match for {job['job_id']}")

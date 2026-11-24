@@ -1,0 +1,907 @@
+{
+  "P1_ml": {
+    "top5": [
+      "JOB-022",
+      "JOB-027",
+      "JOB-017",
+      "JOB-018",
+      "JOB-006"
+    ],
+    "precision5": 1.0,
+    "recall5": 0.3125,
+    "all_scored": [
+      {
+        "job_id": "JOB-022",
+        "title": "Deep Learning Research Intern",
+        "score": 75,
+        "matched_skills": [
+          "Python",
+          "PyTorch",
+          "Deep Learning"
+        ],
+        "missing_skills": [
+          "Linear Algebra",
+          "CUDA",
+          "Docker",
+          "Hugging Face"
+        ],
+        "reasoning": "The student has 3 out of 4 required skills (Python, PyTorch, Deep Learning) but misses Linear Algebra. They have no preferred skills and no formal work experience, though they meet the education criteria and have relevant neural network projects."
+      },
+      {
+        "job_id": "JOB-027",
+        "title": "AI Model Optimization Intern",
+        "score": 75,
+        "matched_skills": [
+          "Python",
+          "PyTorch",
+          "Deep Learning",
+          "NumPy"
+        ],
+        "missing_skills": [
+          "ONNX",
+          "TensorRT",
+          "C++"
+        ],
+        "reasoning": "The candidate has all required skills (Python, PyTorch, Deep Learning, NumPy), achieving the full 50 points for required skills coverage, but lacks the preferred skills. They have relevant project experience in PyTorch and Deep Learning, and their B.Tech CSE degree aligns well with the education requirements."
+      },
+      {
+        "job_id": "JOB-017",
+        "title": "Machine Learning Intern",
+        "score": 68,
+        "matched_skills": [
+          "Python",
+          "Scikit-Learn",
+          "NumPy",
+          "PyTorch"
+        ],
+        "missing_skills": [
+          "TensorFlow",
+          "Docker"
+        ],
+        "reasoning": "The student matches 3 out of 4 required skills (Python, Scikit-Learn, NumPy) and 1 preferred skill (PyTorch), missing TensorFlow and Docker. They possess relevant project experience in machine learning and meet the B.Tech education requirement."
+      },
+      {
+        "job_id": "JOB-018",
+        "title": "NLP Research Intern",
+        "score": 68,
+        "matched_skills": [
+          "Python",
+          "PyTorch"
+        ],
+        "missing_skills": [
+          "NLTK",
+          "Transformers",
+          "SpaCy",
+          "Hugging Face Hub"
+        ],
+        "reasoning": "The candidate matches 2 out of 4 required skills (Python, PyTorch) and has no preferred skills, but meets the education and experience level fit as a B.Tech CSE student. Their NLP project experience also partially aligns with the internship requirements."
+      },
+      {
+        "job_id": "JOB-006",
+        "title": "Deep Learning Research Intern",
+        "score": 62,
+        "matched_skills": [
+          "Python",
+          "PyTorch",
+          "Deep Learning"
+        ],
+        "missing_skills": [
+          "Linear Algebra",
+          "CUDA",
+          "Hugging Face Transformers",
+          "Weights & Biases"
+        ],
+        "reasoning": "The candidate matches 3 out of 4 required skills (Python, PyTorch, Deep Learning) and none of the preferred skills, yielding 37.5/50 for required skills and 0/10 for preferred skills. They have relevant ML projects using PyTorch and fit the education and fresher experience requirements, earning partial points for projects and full points for education/experience fit."
+      },
+      {
+        "job_id": "JOB-011",
+        "title": "Applied Machine Learning Intern",
+        "score": 48,
+        "matched_skills": [
+          "Python",
+          "Scikit-Learn"
+        ],
+        "missing_skills": [
+          "Pandas",
+          "SQL",
+          "Docker",
+          "MLflow"
+        ],
+        "reasoning": "The student matches 2 out of 4 required skills (Python and Scikit-Learn) earning 25 points for required skills coverage, 0 for preferred skills, 13 for relevant projects, and 10 for education and experience-level fit."
+      },
+      {
+        "job_id": "JOB-013",
+        "title": "NLP Data Science Intern",
+        "score": 48,
+        "matched_skills": [
+          "Python",
+          "Deep Learning"
+        ],
+        "missing_skills": [
+          "Hugging Face Transformers",
+          "NLTK",
+          "LangChain",
+          "Vector Databases"
+        ],
+        "reasoning": "The student matches 2 out of 4 required skills (Python and Deep Learning) and none of the preferred skills, yielding 25/50 for required skills and 0/10 for preferred skills. With relevant NLP projects (20/25) and a matching B.Tech CSE education level (15/15), the total score comes to 48."
+      },
+      {
+        "job_id": "JOB-004",
+        "title": "AI Analytics Intern",
+        "score": 45,
+        "matched_skills": [
+          "Python",
+          "Scikit-Learn"
+        ],
+        "missing_skills": [
+          "Pandas",
+          "SQL",
+          "Tableau",
+          "PowerBI",
+          "Statistics"
+        ],
+        "reasoning": "The student has a background in B.Tech CSE and matches Python and Scikit-Learn from the required skills, but lacks Pandas, SQL, and all preferred skills. Relevant projects include ML work, fitting the fresher experience level and educational requirement."
+      },
+      {
+        "job_id": "JOB-020",
+        "title": "Computer Vision Intern",
+        "score": 45,
+        "matched_skills": [
+          "Python",
+          "PyTorch"
+        ],
+        "missing_skills": [
+          "OpenCV",
+          "Computer Vision",
+          "YOLO",
+          "TensorRT"
+        ],
+        "reasoning": "The candidate has a background in B.Tech CSE and matches Python and PyTorch from the required skills, but lacks OpenCV and Computer Vision expertise. They have relevant ML project experience fitting the 0-1 years requirement, but miss several key technical requirements for this specific computer vision role."
+      },
+      {
+        "job_id": "JOB-010",
+        "title": "Recommendation Systems Intern",
+        "score": 38,
+        "matched_skills": [
+          "Python",
+          "Scikit-Learn"
+        ],
+        "missing_skills": [
+          "Pandas",
+          "SQL",
+          "PyTorch Geometric",
+          "Apache Spark",
+          "Neo4j"
+        ],
+        "reasoning": "The student matches two of the four required skills (Python and Scikit-Learn) and meets the educational and experience requirements with a B.Tech CSE degree and 0-1 years fit. However, they lack key required skills like Pandas and SQL, as well as all preferred skills, resulting in a lower overall score."
+      }
+    ]
+  },
+  "P3_data_analytics": {
+    "top5": [
+      "JOB-031",
+      "JOB-021",
+      "JOB-016",
+      "JOB-036",
+      "JOB-041"
+    ],
+    "precision5": 1.0,
+    "recall5": 0.21739130434782608,
+    "all_scored": [
+      {
+        "job_id": "JOB-031",
+        "title": "Junior Data Analyst Intern",
+        "score": 83,
+        "matched_skills": [
+          "SQL",
+          "Tableau",
+          "Excel",
+          "Python",
+          "Pandas"
+        ],
+        "missing_skills": [
+          "Basic Statistics"
+        ],
+        "reasoning": "The student matches all four required skills (SQL, Tableau, Excel, Python) and one of the preferred skills (Pandas), scoring full points for required skills and partial points for preferred skills. The student also has relevant project experience and a BCA degree aligning with the educational fit, though missing basic statistics specifically."
+      },
+      {
+        "job_id": "JOB-021",
+        "title": "Business Intelligence Intern",
+        "score": 75,
+        "matched_skills": [
+          "SQL",
+          "Power BI",
+          "Excel",
+          "Python",
+          "Tableau"
+        ],
+        "missing_skills": [
+          "DAX",
+          "Google Analytics"
+        ],
+        "reasoning": "The student matches all 4 required skills (SQL, Power BI, Excel, Python) and 1 preferred skill (Tableau), covering the core technical requirements. While their BCA degree does not strictly match the exact preferred education field of B.Sc/M.Sc Statistics or B.Tech, they fit the fresher experience level and have relevant dashboard and analysis projects."
+      },
+      {
+        "job_id": "JOB-016",
+        "title": "Junior Data Analyst Intern",
+        "score": 75,
+        "matched_skills": [
+          "Python",
+          "SQL",
+          "Pandas",
+          "Tableau",
+          "Excel"
+        ],
+        "missing_skills": [
+          "Git"
+        ],
+        "reasoning": "The student matches three out of four required skills (Python, SQL, Pandas) plus Tableau, missing only Tableau in the required set (wait, student has Tableau, so 4/4 required). For preferred skills, they have Excel but miss Git. The student has relevant projects in SQL, Power BI, Python, and Pandas, and fits the fresher experience level with a BCA degree."
+      },
+      {
+        "job_id": "JOB-036",
+        "title": "Marketing Data Analyst Intern",
+        "score": 75,
+        "matched_skills": [
+          "SQL",
+          "Tableau",
+          "Excel",
+          "Python",
+          "Statistics"
+        ],
+        "missing_skills": [
+          "Google Analytics"
+        ],
+        "reasoning": "The student matches 4 out of 4 required skills (SQL, Tableau, Excel, Python) and 1 preferred skill (Statistics), earning full points for required and preferred coverage. However, points are partially deducted in education fit because the student's degree is a BCA rather than the requested B.Tech/B.Sc in quantitative fields."
+      },
+      {
+        "job_id": "JOB-041",
+        "title": "Data Visualization Intern",
+        "score": 75,
+        "matched_skills": [
+          "Tableau",
+          "Power BI",
+          "SQL",
+          "Excel",
+          "Python"
+        ],
+        "missing_skills": [
+          "Data Storytelling"
+        ],
+        "reasoning": "The student matches all 4 required skills (Tableau, Power BI, SQL, Excel) earning 50 points, and 1 out of 2 preferred skills (Python) earning 5 points. For education and experience-level fit, the student is a fresher pursuing a BCA, partially aligning with the quantitative degree requirements, earning 10 out of 15 points. With relevant dashboard and analysis projects earning 10 out of 25 points, the total score is 75."
+      },
+      {
+        "job_id": "JOB-028",
+        "title": "Business Data Analyst Intern",
+        "score": 68,
+        "matched_skills": [
+          "SQL",
+          "Excel",
+          "Python"
+        ],
+        "missing_skills": [
+          "PowerBI",
+          "Data Visualization",
+          "Google Analytics",
+          "DAX"
+        ],
+        "reasoning": "The student matches 3 out of 4 required skills (SQL, Excel) and 1 preferred skill (Python), but misses PowerBI and Data Visualization which are critical. They have relevant analytics projects using SQL and Python, and fit the fresher experience level with a BCA degree."
+      },
+      {
+        "job_id": "JOB-033",
+        "title": "Business Intelligence Intern",
+        "score": 68,
+        "matched_skills": [
+          "Power BI",
+          "SQL",
+          "Python"
+        ],
+        "missing_skills": [
+          "ETL Basics",
+          "Snowflake",
+          "DAX"
+        ],
+        "reasoning": "The student matches 3 out of 4 required skills (Power BI, SQL, Python) and none of the preferred skills. They have relevant projects in sales dashboards and customer churn analysis, and fit the fresher experience level with a BCA degree."
+      },
+      {
+        "job_id": "JOB-004",
+        "title": "AI Analytics Intern",
+        "score": 67,
+        "matched_skills": [
+          "Python",
+          "Pandas",
+          "SQL",
+          "Tableau",
+          "PowerBI",
+          "Statistics"
+        ],
+        "missing_skills": [
+          "Scikit-Learn"
+        ],
+        "reasoning": "The student matches 3 out of 4 required skills (Python, Pandas, SQL) and all preferred skills (Tableau, PowerBI, Statistics). However, they lack the 'Scikit-Learn' required skill and have a BCA degree instead of the preferred B.Tech/B.Sc in Statistics, Mathematics, or CS, though their experience level as a fresher fits the requirement."
+      },
+      {
+        "job_id": "JOB-171",
+        "title": "Business Intelligence Intern",
+        "score": 63,
+        "matched_skills": [
+          "SQL",
+          "Tableau",
+          "Python",
+          "Basic Statistics"
+        ],
+        "missing_skills": [
+          "Microsoft Excel",
+          "Data Visualization"
+        ],
+        "reasoning": "The student matches two of the four required skills (SQL and Tableau) and both preferred skills (Python, Basic Statistics), but lacks Microsoft Excel and Data Visualization. Their BCA degree meets the education requirements, and they have relevant project experience in analytics."
+      },
+      {
+        "job_id": "JOB-177",
+        "title": "Business Intelligence Analyst Intern",
+        "score": 62,
+        "matched_skills": [
+          "SQL",
+          "Tableau",
+          "Python",
+          "Statistics"
+        ],
+        "missing_skills": [
+          "Data Visualization",
+          "Snowflake",
+          "ETL Processes"
+        ],
+        "reasoning": "The candidate matches 3 out of 4 required skills (SQL, Tableau, Python) and 1 preferred skill (Statistics). They have relevant project experience with SQL and Python, and fit the entry-level experience requirement, though their BCA degree does not strictly align with the preferred educational background."
+      }
+    ]
+  },
+  "P5_uiux": {
+    "top5": [
+      "JOB-136",
+      "JOB-146",
+      "JOB-145",
+      "JOB-147",
+      "JOB-137"
+    ],
+    "precision5": 1.0,
+    "recall5": 0.5,
+    "all_scored": [
+      {
+        "job_id": "JOB-136",
+        "title": "UI/UX Design Intern",
+        "score": 90,
+        "matched_skills": [
+          "Figma",
+          "Wireframing",
+          "Prototyping",
+          "User Research"
+        ],
+        "missing_skills": [
+          "Adobe XD",
+          "Basic HTML/CSS",
+          "Illustration"
+        ],
+        "reasoning": "The student matches all required skills and has a relevant B.Des education fitting the internship requirements. They are missing the preferred skills, which slightly reduces the overall score."
+      },
+      {
+        "job_id": "JOB-146",
+        "title": "UX/UI Design Intern",
+        "score": 85,
+        "matched_skills": [
+          "Figma",
+          "Wireframing",
+          "Prototyping",
+          "Visual Design"
+        ],
+        "missing_skills": [
+          "Adobe XD",
+          "HTML/CSS basics"
+        ],
+        "reasoning": "The student covers 100% of the required skills (Figma, Wireframing, Prototyping, Visual Design) and has relevant project experience in UI/UX design. They are also currently pursuing a B.Des degree, perfectly fitting the education and fresher experience requirements, though they lack the preferred Adobe XD and HTML/CSS basics skills."
+      },
+      {
+        "job_id": "JOB-145",
+        "title": "UX/UI Product Intern",
+        "score": 85,
+        "matched_skills": [
+          "Figma",
+          "Wireframing",
+          "Visual Design",
+          "Prototyping"
+        ],
+        "missing_skills": [
+          "UserTesting.com",
+          "Zeplin",
+          "Agile Methodology"
+        ],
+        "reasoning": "The student matches all 4 required skills, earning full points for required skills coverage, but misses all preferred skills. The student's B.Des education and project experience fit the 0-1 years experience requirement well, resulting in a strong overall score."
+      },
+      {
+        "job_id": "JOB-147",
+        "title": "Product Design Intern",
+        "score": 75,
+        "matched_skills": [
+          "Figma",
+          "User Research",
+          "Interaction Design",
+          "Design Systems",
+          "Information Architecture"
+        ],
+        "missing_skills": [
+          "Miro",
+          "Principle"
+        ],
+        "reasoning": "The student matches all four required skills and one preferred skill (Information Architecture), earning 50 out of 50 for required and 3.33 for preferred skills. They have relevant projects utilizing Figma and user research, and hold a B.Des degree which fits the education requirements."
+      },
+      {
+        "job_id": "JOB-137",
+        "title": "Product Design Intern",
+        "score": 75,
+        "matched_skills": [
+          "Figma",
+          "Interaction Design",
+          "Information Architecture",
+          "Design Systems"
+        ],
+        "missing_skills": [
+          "Miro",
+          "Principle",
+          "Data Visualization"
+        ],
+        "reasoning": "The student has all four required skills (Figma, Interaction Design, Information Architecture, Design Systems), yielding 50 points, but lacks any preferred skills. They have relevant project experience in design and meet the education requirement with a B.Des, fitting the 0-1 years experience level well."
+      },
+      {
+        "job_id": "JOB-141",
+        "title": "Mobile UI Design Intern",
+        "score": 63,
+        "matched_skills": [
+          "Figma",
+          "Prototyping",
+          "Wireframing"
+        ],
+        "missing_skills": [
+          "Mobile UI Design",
+          "Principle",
+          "After Effects",
+          "Illustration"
+        ],
+        "reasoning": "The student matches three required skills (Figma, Prototyping, Wireframing) but misses Mobile UI Design. They have no preferred skills matched, but fit the education requirement with a B.Des degree and are at the fresher experience level."
+      },
+      {
+        "job_id": "JOB-150",
+        "title": "Visual & Interaction Design Intern",
+        "score": 63,
+        "matched_skills": [
+          "Figma",
+          "Visual Design"
+        ],
+        "missing_skills": [
+          "Typography",
+          "Color Theory",
+          "Adobe Illustrator",
+          "Adobe Photoshop",
+          "Framer"
+        ],
+        "reasoning": "The student matches 2 out of 4 required skills (Figma and Visual Design) and has no preferred skills, resulting in 25 out of 50 points for required skills and 0 for preferred. They have relevant design projects and meet the education and experience-level fit as a B.Des student seeking a fresher role, giving a total score of 63."
+      },
+      {
+        "job_id": "JOB-148",
+        "title": "Mobile App UI/UX Intern",
+        "score": 48,
+        "matched_skills": [
+          "Figma"
+        ],
+        "missing_skills": [
+          "Mobile UI Design",
+          "Material Design",
+          "iOS HIG",
+          "Flutter basics",
+          "Rive",
+          "After Effects"
+        ],
+        "reasoning": "The student matches only one of the required skills (Figma) and lacks mobile-specific design frameworks like Material Design and iOS HIG. Additionally, the portfolio lacks a complete mobile app design case study as specified in the qualifications."
+      },
+      {
+        "job_id": "JOB-142",
+        "title": "Interaction Design Intern",
+        "score": 45,
+        "matched_skills": [
+          "Information Architecture",
+          "Interaction Design"
+        ],
+        "missing_skills": [
+          "Adobe XD",
+          "User Journey Mapping",
+          "HTML/CSS basics",
+          "Miro",
+          "Design Thinking"
+        ],
+        "reasoning": "The student matches 2 out of 4 required skills, earning 25 out of 50 points for required skills. They have no preferred skills matched (0 points), possess relevant B.Des education fitting the criteria (15 points), and have relevant design projects (5 points) for a total score of 45."
+      },
+      {
+        "job_id": "JOB-140",
+        "title": "Junior UX Engineer Intern",
+        "score": 28,
+        "matched_skills": [
+          "Figma"
+        ],
+        "missing_skills": [
+          "HTML5/CSS3",
+          "JavaScript",
+          "Responsive Design",
+          "Tailwind CSS",
+          "React.js",
+          "Accessibility (WCAG)"
+        ],
+        "reasoning": "The student matches only one required skill (Figma) out of four and none of the preferred skills. Furthermore, the candidate's education is in Design (B.Des) rather than the required B.Tech CS/IT, though they have relevant UI/UX projects."
+      }
+    ]
+  },
+  "P2_frontend": {
+    "top5": [
+      "JOB-046",
+      "JOB-056",
+      "JOB-050",
+      "JOB-086",
+      "JOB-055"
+    ],
+    "precision5": 1.0,
+    "recall5": 0.2777777777777778,
+    "all_scored": [
+      {
+        "job_id": "JOB-046",
+        "title": "Junior React Developer Intern",
+        "score": 87,
+        "matched_skills": [
+          "React.js",
+          "JavaScript (ES6+)",
+          "HTML5",
+          "CSS3",
+          "Git",
+          "TypeScript",
+          "Tailwind CSS"
+        ],
+        "missing_skills": [
+          "Redux Toolkit"
+        ],
+        "reasoning": "The student matches all required skills (50/50 points) and two out of three preferred skills (6.67/10 points), while also meeting the education and experience-level criteria. Relevant projects in React and JavaScript further validate their practical exposure, resulting in a strong overall match."
+      },
+      {
+        "job_id": "JOB-056",
+        "title": "UI/UX Frontend Developer Intern",
+        "score": 83,
+        "matched_skills": [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "React.js",
+          "Tailwind CSS",
+          "TypeScript",
+          "Git"
+        ],
+        "missing_skills": [
+          "Figma"
+        ],
+        "reasoning": "The student matches all 5 required skills and 2 out of 3 preferred skills. They have relevant project experience with React and JavaScript, and meet the education and experience-level requirements as a B.Tech IT student."
+      },
+      {
+        "job_id": "JOB-050",
+        "title": "Web UI Developer Intern",
+        "score": 80,
+        "matched_skills": [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "Tailwind CSS"
+        ],
+        "missing_skills": [
+          "JavaScript DOM Manipulation",
+          "Adobe XD or Figma basics"
+        ],
+        "reasoning": "The student has a strong fit, meeting all four required technical skills for the internship and matching the educational requirement with a B.Tech IT degree as a fresher. However, they lack the preferred skills in JavaScript DOM Manipulation and UI design tools like Adobe XD or Figma."
+      },
+      {
+        "job_id": "JOB-086",
+        "title": "Full Stack Web Development Intern",
+        "score": 60,
+        "matched_skills": [
+          "JavaScript",
+          "React.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "Git"
+        ],
+        "missing_skills": [
+          "Node.js",
+          "Express",
+          "MongoDB"
+        ],
+        "reasoning": "The candidate matches 2 out of 5 required skills (JavaScript, React.js) and all 3 preferred skills (TypeScript, Tailwind CSS, Git). They meet the fresher experience level and B.Tech IT education requirement, but lack the backend stack of Node.js, Express, and MongoDB."
+      },
+      {
+        "job_id": "JOB-055",
+        "title": "Mobile-First Web Intern",
+        "score": 53,
+        "matched_skills": [
+          "HTML5",
+          "CSS3",
+          "JavaScript (ES6)",
+          "Tailwind CSS"
+        ],
+        "missing_skills": [
+          "Responsive Design",
+          "Webpack",
+          "PWA concepts",
+          "Lighthouse auditing"
+        ],
+        "reasoning": "The student has a B.Tech IT degree matching the education requirement and fits the fresher experience level, while covering HTML5, CSS3, JavaScript, and Tailwind CSS (a preferred skill). However, they miss key required skills such as Responsive Design and Webpack, alongside some preferred skills like PWA concepts and Lighthouse auditing."
+      },
+      {
+        "job_id": "JOB-058",
+        "title": "React.js Frontend Intern",
+        "score": 50,
+        "matched_skills": [
+          "React.js",
+          "JavaScript",
+          "HTML5",
+          "GraphQL"
+        ],
+        "missing_skills": [
+          "Redux",
+          "SCSS",
+          "Webpack",
+          "Docker"
+        ],
+        "reasoning": "The student matches 3 out of 5 required skills (React.js, JavaScript, HTML5) earning 30 out of 50 points, and 1 preferred skill (GraphQL) earning 3.33 points. They meet the education requirement with a B.Tech IT degree and fit the fresher experience level, bringing total score to 50."
+      },
+      {
+        "job_id": "JOB-098",
+        "title": "Cross-Platform App Intern",
+        "score": 45,
+        "matched_skills": [
+          "JavaScript",
+          "TypeScript",
+          "HTML/CSS",
+          "Git"
+        ],
+        "missing_skills": [
+          "React Native",
+          "Redux",
+          "Native Navigation",
+          "Firebase"
+        ],
+        "reasoning": "The candidate matches 4 out of 5 required skills and has a relevant B.Tech IT background suitable for a fresher role. However, they lack React Native and all preferred skills, which reduces their overall match score."
+      },
+      {
+        "job_id": "JOB-140",
+        "title": "Junior UX Engineer Intern",
+        "score": 45,
+        "matched_skills": [
+          "HTML5/CSS3",
+          "JavaScript",
+          "Tailwind CSS",
+          "React.js"
+        ],
+        "missing_skills": [
+          "Figma",
+          "Responsive Design",
+          "Accessibility (WCAG)"
+        ],
+        "reasoning": "The candidate has strong frontend skills including React.js and Tailwind CSS, but lacks crucial required skills such as Figma and Responsive Design. Their education in B.Tech IT fits the requirements, resulting in a moderate match overall."
+      },
+      {
+        "job_id": "JOB-053",
+        "title": "ReactJS Web Developer Intern",
+        "score": 40,
+        "matched_skills": [
+          "React.js",
+          "JavaScript",
+          "REST APIs"
+        ],
+        "missing_skills": [
+          "CSS Modules",
+          "Redux Toolkit",
+          "GraphQL",
+          "Next.js",
+          "Styled Components"
+        ],
+        "reasoning": "The student matches 3 out of 5 required skills (React.js, JavaScript, REST APIs) earning 30 points, and 1 preferred skill (GraphQL) earning 3.33 points, plus points for relevant projects and education fit. However, the absence of key required skills like CSS Modules and Redux Toolkit lowers the total score to 40."
+      },
+      {
+        "job_id": "JOB-048",
+        "title": "UI Integration Intern",
+        "score": 30,
+        "matched_skills": [
+          "TypeScript",
+          "HTML5"
+        ],
+        "missing_skills": [
+          "Angular",
+          "SCSS",
+          "Bootstrap",
+          "RxJS",
+          "Angular Material",
+          "Cypress"
+        ],
+        "reasoning": "The candidate matches 2 out of 5 required skills (TypeScript and HTML5), earning 20 points for required skills and 0 for preferred skills. They have relevant education in B.Tech IT and zero professional experience, fitting the experience level well for 15 points, while projects provide partial relevance for 10 points."
+      }
+    ]
+  },
+  "P4_cybersecurity": {
+    "top5": [
+      "JOB-126",
+      "JOB-158",
+      "JOB-131",
+      "JOB-121",
+      "JOB-123"
+    ],
+    "precision5": 0.8,
+    "recall5": 0.8,
+    "all_scored": [
+      {
+        "job_id": "JOB-126",
+        "title": "Ethical Hacking & Pen Testing Intern",
+        "score": 85,
+        "matched_skills": [
+          "Burp Suite",
+          "OWASP Top 10",
+          "Nmap",
+          "Basic Python"
+        ],
+        "missing_skills": [
+          "Metasploit",
+          "CEH Certification"
+        ],
+        "reasoning": "The candidate matches all required skills including Burp Suite, OWASP Top 10, Nmap, and Python, covering the 50 points for required skills. They miss the preferred skills (Metasploit and CEH), but possess relevant projects and fit the fresher education requirement well."
+      },
+      {
+        "job_id": "JOB-158",
+        "title": "Security Testing Intern",
+        "score": 83,
+        "matched_skills": [
+          "OWASP Top 10",
+          "Burp Suite",
+          "Network Fundamentals",
+          "Linux CLI",
+          "Python Scripting",
+          "Nmap"
+        ],
+        "missing_skills": [
+          "CTF Experience"
+        ],
+        "reasoning": "The candidate matches all required security skills and most preferred skills while fitting the fresher experience level and relevant B.Tech Cybersecurity education. They also demonstrate practical project experience with Python and Nmap, resulting in a strong alignment with the internship requirements."
+      },
+      {
+        "job_id": "JOB-131",
+        "title": "Network Penetration Testing Intern",
+        "score": 73,
+        "matched_skills": [
+          "Wireshark",
+          "Nmap",
+          "Linux CLI",
+          "Python"
+        ],
+        "missing_skills": [
+          "Network Protocols",
+          "Basic Scripting",
+          "Metasploit",
+          "CEH Certification"
+        ],
+        "reasoning": "The student matches 3 out of 5 required skills (Wireshark, Nmap, Linux CLI) and 1 preferred skill (Python), yielding a solid technical coverage. They fit the fresher education and experience requirements well through their B.Tech in CSE (Cyber Security) and relevant home lab projects."
+      },
+      {
+        "job_id": "JOB-121",
+        "title": "Junior Vulnerability Assessment Intern",
+        "score": 68,
+        "matched_skills": [
+          "Network Fundamentals",
+          "Nmap",
+          "Wireshark",
+          "Python"
+        ],
+        "missing_skills": [
+          "Linux OS",
+          "Basic Scripting"
+        ],
+        "reasoning": "The student matches two of the four required skills (Network Fundamentals and Nmap) and both preferred skills (Wireshark and Python). They possess a relevant background in Cyber Security and fit the fresher experience level, though they lack explicit mention of 'Linux OS' and 'Basic Scripting' from the required list."
+      },
+      {
+        "job_id": "JOB-123",
+        "title": "Application Security Intern",
+        "score": 68,
+        "matched_skills": [
+          "OWASP Top 10",
+          "Burp Suite",
+          "Java or Python"
+        ],
+        "missing_skills": [
+          "Web Technologies",
+          "SAST/DAST Tools",
+          "Docker"
+        ],
+        "reasoning": "The student matches three required skills (OWASP Top 10, Burp Suite, Python) but misses Web Technologies, along with both preferred skills. They have relevant education and project experience fitting the fresher requirement, resulting in a solid partial match."
+      },
+      {
+        "job_id": "JOB-127",
+        "title": "Incident Response Analyst Intern",
+        "score": 45,
+        "matched_skills": [
+          "Wireshark",
+          "Linux CLI"
+        ],
+        "missing_skills": [
+          "Splunk",
+          "Windows Event Logs",
+          "Snort",
+          "Basic Bash Scripting"
+        ],
+        "reasoning": "The candidate matches 2 out of 4 required skills (Wireshark and Linux CLI) and none of the preferred skills. They have relevant education in Cyber Security and project experience matching the experience level fit, but lack key incident response tools like Splunk and Windows Event Logs."
+      },
+      {
+        "job_id": "JOB-114",
+        "title": "DevSecOps Engineering Intern",
+        "score": 40,
+        "matched_skills": [
+          "Python",
+          "Security Basics"
+        ],
+        "missing_skills": [
+          "GitLab CI",
+          "Docker",
+          "Kubernetes",
+          "OWASP ZAP"
+        ],
+        "reasoning": "The student has a strong foundation in cybersecurity and Python, matching two of the required skills (Python and Security Basics). However, they lack essential CI/CD and containerization skills like GitLab CI and Docker, resulting in partial required skills coverage and no preferred skills matched."
+      },
+      {
+        "job_id": "JOB-134",
+        "title": "Container Security Trainee",
+        "score": 25,
+        "matched_skills": [],
+        "missing_skills": [
+          "Docker",
+          "Kubernetes",
+          "Linux Security",
+          "YAML",
+          "CI/CD Pipelines",
+          "Trivy",
+          "Helm",
+          "Terraform"
+        ],
+        "reasoning": "The student lacks all required and preferred container security skills specified in the posting, such as Docker, Kubernetes, and Linux Security. However, the student meets the education requirement with a B.Tech in CSE (Cyber Security) and fits the fresher experience level."
+      },
+      {
+        "job_id": "JOB-122",
+        "title": "SOC Analyst Intern",
+        "score": 15,
+        "matched_skills": [],
+        "missing_skills": [
+          "SIEM Concepts",
+          "Incident Response",
+          "Log Analysis",
+          "Windows Security",
+          "Splunk",
+          "PowerShell"
+        ],
+        "reasoning": "The student lacks all of the required and preferred skills specified in the internship posting, resulting in 0 points for skill coverage. However, the student does meet the education requirement (B.Tech CSE) and the experience level (0-1 years), earning partial points for education and experience fit."
+      },
+      {
+        "job_id": "JOB-132",
+        "title": "Malware Analysis Intern",
+        "score": 10,
+        "matched_skills": [
+          "Python"
+        ],
+        "missing_skills": [
+          "Reverse Engineering",
+          "x86 Assembly",
+          "Ghidra",
+          "Static Analysis",
+          "Dynamic Analysis",
+          "C/C++",
+          "OllyDbg"
+        ],
+        "reasoning": "The student matches only 1 out of the 5 required skills (Python) and misses all preferred skills, resulting in a low required skills score. Although the education level fits well, the lack of crucial malware analysis and reverse engineering competencies leads to a poor overall match."
+      }
+    ]
+  }
+}
